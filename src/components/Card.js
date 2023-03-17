@@ -6,20 +6,24 @@ const Card = ({ title, body }) => {
   };
 
   return (
-    <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-      <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        {title}
-      </h3>
-      <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-        {body}
-      </p>
-      <button
-        className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        onClick={handleClick}
-      >
-        Click me!
-      </button>
+
+    
+  <div class="w-60 p-2 bg-zinc-400 rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl ">
+    <img class="" src="https://ionicframework.com/docs/icons/logo-react-icon.png" alt=""></img>
+    <div class="p-2">
+    <h2 class="font-bold text-lg mb-2">{title}</h2>
+    <p class="text-sm ttext-blue-200">{body}</p>
     </div>
+
+    <div class="m-2">
+    <a role='button' class="text-white bg-stone-900 px-3 py-1 rounded-md hover:bg-sky-600" onClick={handleClick}>Button</a>
+    </div>
+  </div>
+
+
+    
+
+
   );
 };
 
