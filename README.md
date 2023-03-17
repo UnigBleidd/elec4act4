@@ -1,2 +1,2 @@
 # Sample Screen:
-![https://ibb.co/sjCC2GG]
+![Screenshot](https://i.ibb.co/1ZMML55/samplepic.png)
